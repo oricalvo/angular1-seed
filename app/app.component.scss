@@ -1,11 +1,24 @@
 my-app {
     display: flex;
     flex-direction: column;
-    background-color: red;
     height: 100%;
 
+    .header, .footer {
+        background-color: black;
+        color: white;
+    }
+
+    .header {
+        font-size: 1.5em;
+        padding: 0.5em;
+    }
+
+    .footer {
+        background-color: rgb(200,200,200);
+        padding: 0.15em;
+    }
+
     .content {
-        background-color: blue;
         height: 100%;
     }
 }

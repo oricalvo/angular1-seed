@@ -1,8 +1,18 @@
 <div class="header">
     Modern Angular 1
+
+    <span>
+        Hello, {{$ctrl.userName}}
+    </span>
 </div>
 
-<div class="content"></div>
+<div class="content">
+    <my-contact-list></my-contact-list>
+
+    <button ng-click="$ctrl.loadContacts()">Load Contacts</button>
+    <button ng-click="$ctrl.login()">Login</button>
+
+</div>
 
 <div class="footer">
     @2017
