@@ -1,0 +1,11 @@
+my-app {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    height: 100%;
+
+    .content {
+        background-color: blue;
+        height: 100%;
+    }
+}
