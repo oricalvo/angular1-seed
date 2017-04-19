@@ -1,14 +1,12 @@
 import * as angular from "angular";
 import {appModule} from "./app.module";
-import {AppComponent} from "./app.component";
+import {AppComponent} from "./components/app.component";
 import {AppStore, ServiceStore} from "txsvc";
-import {ContactsState, ContactService} from "./contact.service";
-import {ContactListComponent} from "./contactList.component";
-import {UserService} from "./user.service";
+import {ContactsState, ContactService} from "./services/contact.service";
+import {UserService} from "./components/user.service";
 
 const components = [
     AppComponent,
-    ContactListComponent
 ];
 
 const services = [

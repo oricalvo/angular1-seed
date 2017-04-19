@@ -1,5 +1,5 @@
-import {appModule} from "./app.module";
-import {ContactService} from "./contact.service";
+import {appModule} from "../app.module";
+import {ContactService} from "../services/contact.service";
 import {UserService} from "./user.service";
 
 export class AppComponent {

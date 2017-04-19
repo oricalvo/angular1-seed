@@ -3,19 +3,17 @@ my-app {
     flex-direction: column;
     height: 100%;
 
-    .header, .footer {
+    .header {
         background-color: black;
         color: white;
-    }
-
-    .header {
         font-size: 1.5em;
         padding: 0.5em;
     }
 
     .footer {
         background-color: rgb(200,200,200);
-        padding: 0.15em;
+        color: white;
+        padding: 0.5em;
     }
 
     .content {

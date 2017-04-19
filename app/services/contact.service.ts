@@ -1,5 +1,5 @@
 import {ServiceStore, Transaction} from "txsvc";
-import {appModule} from "./app.module";
+import {appModule} from "../app.module";
 
 export interface Contact {
     id: number;

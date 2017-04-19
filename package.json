@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "angular": "^1.6.3",
+    "angular": "1.6.3",
     "systemjs": "^0.20.9",
-    "systemjs-plugin-text": "^0.0.9",
-    "txsvc": "^1.0.25"
+    "systemjs-plugin-css": "^0.1.33",
+    "systemjs-plugin-text": "0.0.9",
+    "txsvc": "1.0.25"
   },
   "devDependencies": {
     "@types/angular": "^1.6.7",
@@ -17,7 +18,7 @@
     "node-sass": "^4.5.0",
     "open": "0.0.5",
     "shelljs": "^0.7.7",
-    "typescript": "^2.2.1"
+    "typescript": "^2.2.2"
   },
   "scripts": {
     "start": "gulp dev",
